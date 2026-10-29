@@ -1,0 +1,42 @@
+>>> Executando com 1 núcleo(s) (CPUs 0-0)
+=== Benchmark de ordenação serial x paralela ===
+Java 21.0.12.1 | núcleos disponíveis: 1 | heap máx: 2969 MB
+Threads: [1, 2, 4, 8] | amostras: 5
+Aquecendo a JVM... ok
+[  12.9s] BubbleSort   n=25000     ALEATORIO        ok
+[  25.5s] BubbleSort   n=25000     POUCOS_DISTINTOS ok
+[  29.1s] QuickSort    n=1000000   ALEATORIO        ok
+[  31.0s] QuickSort    n=1000000   POUCOS_DISTINTOS ok
+[  50.1s] QuickSort    n=5000000   ALEATORIO        ok
+[  59.2s] QuickSort    n=5000000   POUCOS_DISTINTOS ok
+[  63.0s] MergeSort    n=1000000   ALEATORIO        ok
+[  65.3s] MergeSort    n=1000000   POUCOS_DISTINTOS ok
+[  87.2s] MergeSort    n=5000000   ALEATORIO        ok
+[  99.8s] MergeSort    n=5000000   POUCOS_DISTINTOS ok
+[ 101.2s] CountingSort n=1000000   ALEATORIO        ok
+[ 101.7s] CountingSort n=1000000   POUCOS_DISTINTOS ok
+[ 106.8s] CountingSort n=5000000   ALEATORIO        ok
+[ 108.9s] CountingSort n=5000000   POUCOS_DISTINTOS ok
+Resultados brutos: resultados/nucleos_1_brutos.csv (350 medições)
+>>> Executando com 2 núcleo(s) (CPUs 0-1)
+=== Benchmark de ordenação serial x paralela ===
+Java 21.0.12.1 | núcleos disponíveis: 2 | heap máx: 3072 MB
+Threads: [1, 2, 4, 8] | amostras: 5
+Aquecendo a JVM... ok
+[  11.6s] BubbleSort   n=25000     ALEATORIO        ok
+[  22.7s] BubbleSort   n=25000     POUCOS_DISTINTOS ok
+[  25.9s] QuickSort    n=1000000   ALEATORIO        ok
+[  27.6s] QuickSort    n=1000000   POUCOS_DISTINTOS ok
+[  43.4s] QuickSort    n=5000000   ALEATORIO        ok
+[  50.8s] QuickSort    n=5000000   POUCOS_DISTINTOS ok
+[  54.4s] MergeSort    n=1000000   ALEATORIO        ok
+[  56.6s] MergeSort    n=1000000   POUCOS_DISTINTOS ok
+[  75.1s] MergeSort    n=5000000   ALEATORIO        ok
+[  85.5s] MergeSort    n=5000000   POUCOS_DISTINTOS ok
+[  87.1s] CountingSort n=1000000   ALEATORIO        ok
+[  87.7s] CountingSort n=1000000   POUCOS_DISTINTOS ok
+[  92.5s] CountingSort n=5000000   ALEATORIO        ok
+[  94.6s] CountingSort n=5000000   POUCOS_DISTINTOS ok
+Resultados brutos: resultados/nucleos_2_brutos.csv (350 medições)
+Resumo gravado em resultados/nucleos_resumo.csv (140 linhas)
+FIM
