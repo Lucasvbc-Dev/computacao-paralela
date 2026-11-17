@@ -1,0 +1,10 @@
+Data: 2026-11-16T18:13:45.440687047
+Sistema: Linux 6.18.44-fc-v470 (amd64)
+Java: Ubuntu 21.0.12.1
+Núcleos lógicos (availableProcessors): 2
+Memória máxima da JVM: 3072 MB
+Dispositivo OpenCL: cpu-skylake-avx512-Intel(R) Xeon(R) Processor @ 2.10GHz (dispositivo OpenCL não-GPU)
+Preparação do OpenCL: 649.0 ms
+Palavras: [the, whale]
+Amostras por configuração: 10 | aquecimentos: 3
+Threads na ParallelCPU: [1, 2, 4, 8]
