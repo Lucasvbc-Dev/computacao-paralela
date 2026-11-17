@@ -2,7 +2,7 @@
 
 **Disciplina:** Computação Paralela e Concorrente — UNIFOR\
 **Professor:** Izequiel Pereira de Norões\
-**Dupla:** Lucas de Vasconcelos Barreira Carvalho (matrícula 2410424) e [NOME DO(A) COLEGA] (matrícula [MATRÍCULA])\
+**Dupla:** Lucas de Vasconcelos Barreira Carvalho (matrícula 2410424) (matrícula [2410424])\
 **Repositório:** https://github.com/Lucasvbc-Dev/computacao-paralela
 
 ---
